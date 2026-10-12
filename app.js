@@ -6,6 +6,8 @@ let playing = false;
 const fileMusic = new Audio('instrumental-jazz.mp3');
 fileMusic.loop = true;
 fileMusic.volume = 0.35;
+fileMusic.autoplay = true;
+fileMusic.preload = 'auto';
 
 const philosophy = document.getElementById('community-title');
 const philosophyLabel = document.querySelector('.pink-eyebrow');
