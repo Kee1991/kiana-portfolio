@@ -3,7 +3,7 @@ const label = document.getElementById('soundLabel');
 let audioContext;
 let timer;
 let playing = false;
-const fileMusic = new Audio('assets/instrumental-jazz.mp3');
+const fileMusic = new Audio('instrumental-jazz.mp3');
 fileMusic.loop = true;
 fileMusic.volume = 0.35;
 
@@ -114,7 +114,7 @@ if (missionCard) {
   while (missionCard.firstChild) missionContent.appendChild(missionCard.firstChild);
   const missionPhoto = document.createElement('img');
   missionPhoto.className = 'mission-photo';
-  missionPhoto.src = 'assets/community-mentorship.png';
+  missionPhoto.src = 'community-mentorship.png';
   missionPhoto.alt = 'Young people standing together in a classroom as part of a mentorship community';
   missionCard.append(missionContent, missionPhoto);
 }
