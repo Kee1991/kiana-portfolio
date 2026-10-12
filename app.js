@@ -3,7 +3,7 @@ const label = document.getElementById('soundLabel');
 let audioContext;
 let timer;
 let playing = false;
-const fileMusic = new Audio('instrumental-jazz.mp3');
+const fileMusic = document.getElementById('backgroundMusic') || new Audio('instrumental-jazz.mp3');
 fileMusic.loop = true;
 fileMusic.volume = 0.35;
 fileMusic.autoplay = true;
